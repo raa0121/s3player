@@ -24,6 +24,7 @@ require 'sinatra/reloader' if development?
    end
  
    def initialize *args
+     super
      init_env
      init_aws
    end
